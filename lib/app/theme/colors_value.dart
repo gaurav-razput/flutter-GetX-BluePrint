@@ -20,7 +20,9 @@ abstract class ColorsValue {
 
   static const Color primaryColorLight1Rgbo = Color.fromRGBO(199, 61, 93, .1);
 
-  static const Color primaryColor = Colors.deepPurpleAccent;//Color(primaryColorHex);
+  static const Color primaryColor = Color(primaryColorHex);
+
+  static const Color productCardColor = Color(productCardColorHex);
 
   static const Color facebookColor = Color(
     facebookColorHex,
@@ -60,7 +62,9 @@ abstract class ColorsValue {
 
   static Color backgroundColor = Colors.white;
 
-  static const int primaryColorHex = 0xFF40826D;
+  static const int primaryColorHex = 0xff1BBCB6;
+
+  static const int productCardColorHex = 0xffF8F8F8;
 
   static const int white70 = 0x70C73D5D;
 
